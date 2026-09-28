@@ -47,16 +47,26 @@ That review produced two different kinds of findings:
 
 All 18 grader explanations were grounded in the supplied messages. The small test showed that the grader could usually follow the rubric, but it also showed why a high agreement rate does not remove the need for human review.
 
-## Follow the evaluation
+## Repository guide
 
-| Start here | What it contains |
+### User guide
+
+[**Read the complete user guide**](guide/human-in-the-loop-sentiment-evaluation.md)
+
+The guide walks through the full evaluation process, from defining the client's question to reporting the results. It includes the worked HC-006 failure and is written for a capable beginner.
+
+---
+
+### Files
+
+| File | What it contains |
 |---|---|
-| [User guide](guide/human-in-the-loop-sentiment-evaluation.md) | The full process, written for a capable beginner, including the worked HC-006 failure. |
 | [Sentiment rubric](evals/sentiment-rubric.md) | The labels, decision rules, review-status rules, and confidence guidance. |
 | [Human reference set](data/human-reference-set.md) | All 18 synthetic messages and their human-approved answers. |
 | [Validation summary](results/validation-summary.md) | The testing method, agreement results, findings, and limitations. |
 | [Disagreement log](results/disagreement-log.md) | The five differences and how each one was resolved. |
 | [Regression case](results/regression-case.md) | The grader failure retained for future testing. |
+| [Grader setup diagram](guide/grader-setup-and-test-input.svg) | The information supplied to the grader for one test case. |
 
 ## Why the human review matters
 
