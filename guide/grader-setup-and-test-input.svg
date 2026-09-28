@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Candidate 1 setup record and HC-006 test input</title>
+  <desc id="desc">Two labeled panels. The first identifies the AI setup, instructions, allowed information, excluded information, error handling, and limitation. The second identifies the AI instructions, sentiment rules, test ID, and customer message supplied for HC-006.</desc>
+  <rect width="1200" height="900" fill="#f8fafc"/>
+  <text x="60" y="64" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" fill="#172033">What to record before testing the AI</text>
+  <text x="60" y="102" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#4b5563">A labeled example using Candidate 1 and the HC-006 customer message</text>
+
+  <rect x="55" y="135" width="535" height="700" rx="14" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="55" y="135" width="535" height="72" rx="14" fill="#26364a"/>
+  <rect x="55" y="185" width="535" height="22" fill="#26364a"/>
+  <circle cx="91" cy="171" r="21" fill="#f59e0b"/>
+  <text x="91" y="179" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#172033">1</text>
+  <text x="128" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">AI setup record</text>
+
+  <rect x="75" y="228" width="495" height="68" fill="#f3f4f6"/>
+  <text x="94" y="253" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Setup name</text>
+  <text x="94" y="280" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#111827">Candidate 1 v0.1</text>
+
+  <rect x="75" y="296" width="495" height="68" fill="#ffffff"/>
+  <text x="94" y="321" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2937">AI tool and model</text>
+  <text x="94" y="348" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#111827">ChatGPT Work, displayed model 5.6 Luna</text>
+
+  <rect x="75" y="364" width="495" height="68" fill="#f3f4f6"/>
+  <text x="94" y="389" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Instructions and settings</text>
+  <text x="94" y="416" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#111827">Candidate Prompt v0.1, Low reasoning, no API</text>
+
+  <rect x="75" y="432" width="495" height="86" fill="#ffffff"/>
+  <text x="94" y="457" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Allowed to see</text>
+  <text x="94" y="484" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#111827">Prompt, sentiment rules, test ID,</text>
+  <text x="94" y="507" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#111827">and original customer message</text>
+
+  <rect x="75" y="518" width="495" height="86" fill="#f3f4f6"/>
+  <text x="94" y="543" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Kept out of the test</text>
+  <text x="94" y="570" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#111827">Human answers, earlier AI answers,</text>
+  <text x="94" y="593" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#111827">review decisions, and answer files</text>
+
+  <rect x="75" y="604" width="495" height="86" fill="#ffffff"/>
+  <text x="94" y="629" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Error handling</text>
+  <text x="94" y="656" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#111827">Save errors and incomplete answers.</text>
+  <text x="94" y="679" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#111827">Do not quietly correct or replace them.</text>
+
+  <rect x="75" y="690" width="495" height="116" fill="#f3f4f6"/>
+  <text x="94" y="715" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Known limitation</text>
+  <text x="94" y="742" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#111827">The interface cannot lock every AI setting,</text>
+  <text x="94" y="765" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#111827">so repeating the test might not produce</text>
+  <text x="94" y="788" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#111827">exactly the same answer.</text>
+
+  <rect x="620" y="135" width="525" height="566" rx="14" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="620" y="135" width="525" height="72" rx="14" fill="#26364a"/>
+  <rect x="620" y="185" width="525" height="22" fill="#26364a"/>
+  <circle cx="656" cy="171" r="21" fill="#3fb950"/>
+  <text x="656" y="179" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#172033">2</text>
+  <text x="693" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">One test input</text>
+
+  <rect x="640" y="228" width="485" height="92" fill="#f3f4f6"/>
+  <circle cx="671" cy="274" r="20" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="671" y="281" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#1d4ed8">A</text>
+  <text x="707" y="258" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Instructions for the AI</text>
+  <text x="707" y="289" font-family="Segoe UI, Arial, sans-serif" font-size="21" fill="#111827">Candidate Prompt v0.1</text>
+
+  <rect x="640" y="320" width="485" height="92" fill="#ffffff"/>
+  <circle cx="671" cy="366" r="20" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+  <text x="671" y="373" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#c2410c">B</text>
+  <text x="707" y="350" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Sentiment rules</text>
+  <text x="707" y="381" font-family="Segoe UI, Arial, sans-serif" font-size="21" fill="#111827">Sentiment rubric v1.0</text>
+
+  <rect x="640" y="412" width="485" height="92" fill="#f3f4f6"/>
+  <circle cx="671" cy="458" r="20" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="671" y="465" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#15803d">C</text>
+  <text x="707" y="442" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Test ID</text>
+  <text x="707" y="473" font-family="Segoe UI, Arial, sans-serif" font-size="21" fill="#111827">HC-006</text>
+
+  <rect x="640" y="504" width="485" height="167" fill="#ffffff"/>
+  <circle cx="671" cy="550" r="20" fill="#f3e8ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="671" y="557" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" fill="#7e22ce">D</text>
+  <text x="707" y="534" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#1f2937">Customer message</text>
+  <text x="707" y="573" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#111827">“The replacement arrived the day</text>
+  <text x="707" y="601" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#111827">after I left for my trip.”</text>
+  <text x="707" y="641" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#4b5563">Use the original wording without edits.</text>
+
+  <text x="620" y="748" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#172033">The human-approved answer is kept out of this input.</text>
+  <text x="620" y="781" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#4b5563">This lets the AI make an independent decision.</text>
+</svg>
